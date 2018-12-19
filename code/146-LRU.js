@@ -63,9 +63,8 @@ class LRUCache {
     if (!next) return
     // 修改前一项和后一项指针
     let prev = currentItem.prev
-    // currentItem为队首项目
+    // currentItem为队首项目，需要删除队首项目
     if (!prev) {
-      // currentItem为第二项
       this.moveSecondToFront()
     } else {
       prev.next = next
@@ -75,6 +74,7 @@ class LRUCache {
     // 当前项添加到队尾
     this.addToRear(k)
   }
+  // 当前项放到队尾
   addToRear (k) {
     // 缓存不为空，存在项目
     if (this.rear) {
