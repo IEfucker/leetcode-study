@@ -1,0 +1,30 @@
+{
+  "name": "leetcode-study",
+  "version": "0.0.1",
+  "description": "leetcode study",
+  "main": "no",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEfucker/leetcode-study.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "JackBay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEfucker/leetcode-study/issues"
+  },
+  "homepage": "https://github.com/IEfucker/leetcode-study#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
